@@ -7,6 +7,6 @@ import org.springframework.web.bind.annotation.RestController;
 public class Greeting {
     @RequestMapping("/")
     String hello(){
-        return "Root directory of API. Hello kian.";
+        return "Root directory of API. Server is running on port 8080";
     }
 }
